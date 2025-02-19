@@ -1,2 +1,2 @@
 # fcc-projects
-Repo to push all my FCC Projects
+This repo will be used to push all the projects i complete in the FCC Certifications
