@@ -42,5 +42,5 @@ html{
 }
 .text::first-letter{
     font-weight: bold;
-    font-size:2em
+    font-size:2.5em;
 }
