@@ -1,0 +1,45 @@
+:root{
+    --background-color2:#f0f0f0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.magazine-cover{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-areas:"title title title"
+                        "feature-article feature-article cover-image" 
+                        "small-article1 small-article2 cover-image";
+    grid-template-rows: auto 1fr 1fr;
+    gap: 10px 10px;
+    width: 60%;
+    margin: 20vh auto;
+                    }
+.title{
+    grid-area: title;
+    color: white;
+    text-align: center;
+    background-color: #1B1B32;
+}
+.feature-article{
+    grid-area:feature-article;
+}
+.cover-image{
+    grid-area: cover-image;
+}
+.small-article1{
+    grid-area: small-article1;
+}
+.small-article2{
+    grid-area: small-article2;
+}
+.dark-background{
+    background-color: var(--background-color2);
+}
+.spacing{
+    padding:30px 10px;
+
+}
+p{
+    font-weight: 400;
+}
