@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+#page-wrapper{
+    position: relative;
+    background-color: #eee;
+}
+#header{
+    display: flex;
+    height: 70px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    background-color: #eee;
+}
+#logo{
+    height: 100%;
+    width: 60vw;
+}
+img{
+    height: 100%;
+}
+
+#navigation ul{
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+ul > li {
+    list-style: none;
+}
+#hero{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    text-align: center;
+}
+form{
+    display: block;
+}
+input[type="email"]{
+    padding: 10px;
+    width: 275px;
+    margin-top: 20px;
+}
+input[type="submit"]{
+    max-width: 150px;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+}
+#features{
+    padding: 0 20px;
+    margin-top: 50px;
+}
+#feature{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+#icon{
+    width: 20vw;
+    height: 125px;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#feature-text{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    justify-content: center;
+    height: 125px;
+}
+i{
+    font-size: 3rem;
+}
+#how-to{
+    margin-top: 50px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+#pricing{
+    display: flex;
+    justify-content: center;
+    
+}
+#card{
+    width: calc(100%/3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    justify-content: space-between;
+    margin: 10px;
+}
+.level{
+    padding:15px 0;
+    text-transform: uppercase;
+    font-weight: 700;
+
+}
+h3{
+    font-size: 1.5rem;
+    margin-top: 15px;
+}
+ol{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
+}
+ol li {
+    list-style-type: none;
+}
+button{
+    margin: 15px 0;
+    padding: 0 15px;
+    width: 200px;
+    height: 50px;
+}
+
+footer{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(205, 205, 205);
+    margin-top: 30px;
+    padding: 5px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+ul{
+    display: flex;
+
+}
+ul li {
+    margin-left: 10px;
+}
