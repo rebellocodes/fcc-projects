@@ -30,3 +30,21 @@ const questions = [
         answer: "Mercedes"
     }
 ];
+
+const getRandomQuestion = questions => {
+    let arrayLength = questions.length;
+    let randomNumber = Math.floor(Math.random() * arrayLength) + 1;
+    return questions[randomNumber];
+}
+const getRandomComputerChoice = choice => {
+    let arrayLength = choice.length;
+    let randomNumber = Math.floor(Math.random() * arrayLength);
+    return choice[randomNumber];
+}
+const getResults = (question,choice) => {
+    if(question.answer === choice){
+        return "The computer's choice is correct!"
+    } else {
+        return "The computer's choice is wrong. The correct answer is: " + question.answer;
+    }
+}
