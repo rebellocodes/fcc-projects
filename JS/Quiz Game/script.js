@@ -33,7 +33,7 @@ const questions = [
 
 const getRandomQuestion = questions => {
     let arrayLength = questions.length;
-    let randomNumber = Math.floor(Math.random() * arrayLength) + 1;
+    let randomNumber = Math.floor(Math.random() * arrayLength);
     return questions[randomNumber];
 }
 const getRandomComputerChoice = choice => {
