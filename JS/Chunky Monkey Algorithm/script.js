@@ -4,4 +4,4 @@ const chunkArrayInGroups = (array,number)=> {
         groupArray = [array.slice(i,i + number)];
     }
         return groupArray;
-}
+} 
