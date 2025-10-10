@@ -21,10 +21,7 @@ const sumPrimes = number => {
         for (let i = 0; i < primeArray.length; i++){
             sum += primeArray[i];
         }
-        return sum;
-
-        
+        return sum; 
     }
-    
 }
 
