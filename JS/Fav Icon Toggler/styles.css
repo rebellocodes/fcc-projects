@@ -1,0 +1,11 @@
+ul > li {
+    font-size: 1rem;
+    margin: 1rem;
+}
+.favorite-icon{
+    font-size: 1rem;
+}
+.filled {
+    font-size: 2rem;
+    background-color: red;
+}
