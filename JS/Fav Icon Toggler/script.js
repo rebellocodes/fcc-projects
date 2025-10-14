@@ -1,7 +1,5 @@
 const favicons = document.querySelectorAll(".favorite-icon")
 
-
-
 favicons.forEach(favicon => {
     favicon.addEventListener('click', () => {
         if (!favicon.classList.contains("filled")) {
