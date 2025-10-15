@@ -1,0 +1,22 @@
+.counter-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    max-width: 500px;
+    margin: 200px auto;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aquamarine;
+    
+}
+.input-text{
+    width: 70%;
+    height: 300px;
+}
+#char-count {
+    font-size: 2rem;
+}
+
+.error{
+    color: red;
+}
